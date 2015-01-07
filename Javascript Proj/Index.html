@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Javascript Programming</h1>
+
+    <script>
+        // javascript IS CASE SENSITIVE
+        //var name and var Name are NOT the same
+
+        //this is a inline comment
+
+        /* This allows for a block of comments
+        if multilines are needed
+        */
+
+        //declaring a variable
+ //       var number = 10;
+   //     var bigNumber = number + 100;
+
+//        document.write(bigNumber);
+
+        // javascript will NOT tell you when there is a script error
+
+ /*       //for loop 
+        for(var count = 0; counter <= 10; counter++)
+            //brackets group code
+        {
+            document.write(counter);
+            
+        }
+
+        // While Loop
+        var a = 0;
+        while(a < 10)
+        {
+            document.write(a)
+            a++;    //++ adds 1 to variable 
+        }
+*/
+  /*          var a = 100;
+            while(a  / 2 > 10)
+            {
+                document.write(a);
+                document.write('<br>');
+                a--;
+            }
+*/
+   
+            //brackets denote array
+            //var array = [1, 2, 3, 4, 5];
+            //array[0]    this accesses a index  
+                        //First element of an array is the 0 index
+
+ /*           var text = "This is the book Alice in Wonderland";
+            var numletters = 0;
+
+            for (var count = 0; count < text.length; count++)
+            {
+                if (text[count] != ' ' && text[count] != '.')
+                    numletters++;
+                document.write(numletters);
+                documment.write('<br>');
+
+            }
+*/
+/*        //declare a function
+            function countLetters(text)
+            {
+                var numletters = 0;
+                for (var count = 0; count < text.length; count++) {
+                    if (text[count] != ' ' && text[count] != '.')
+                        numletters++;
+                }
+            }
+
+        //calling a function
+            countLetters();
+*/
+
+        //declare function findSum
+            function findSum(numOne, numTwo)
+            {
+                var sum = numOne + numTwo;
+                document.write('.. and the sum is..');
+                document.write(sum);
+                document.write('<br>');
+            }
+
+        // call function
+            var numberOne = 20;
+            var numberTwo = 5;
+            findSum(numberOne, numberTwo);
+
+        // declare function to sum arbitray numbers
+            function sumArb(numArb)
+            {
+                var sumTot = 0;
+                for (var counter = 0; counter < numArb.length; counter++) {
+                    sumTot = sumTot + numArb[counter];
+                }
+                   
+                document.write('The numbers to be added are...');
+                document.write('<br>');
+                    document.write(numArb);
+                document.write('<br>');
+                document.write(sumTot);
+            }
+               
+            var numArb = [2, 4, 6, 8, 10];
+            sumArb(numArb);
+
+        </script>
+</body>
+</html>

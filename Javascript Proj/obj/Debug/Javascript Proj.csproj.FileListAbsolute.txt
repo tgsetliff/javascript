@@ -1,0 +1,6 @@
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\bin\Javascript Proj.dll.config
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\bin\Javascript Proj.dll
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\bin\Javascript Proj.pdb
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\obj\Debug\Javascript Proj.csprojResolveAssemblyReference.cache
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\obj\Debug\Javascript Proj.dll
+C:\Users\Home\Documents\GitHub\javascript\Javascript Proj\obj\Debug\Javascript Proj.pdb
