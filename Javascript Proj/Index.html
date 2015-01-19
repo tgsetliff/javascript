@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    
 </head>
 <body>
     <h1>Javascript Programming</h1>
@@ -79,39 +80,236 @@
         //calling a function
             countLetters();
 */
+        //// Problem 2
+        //    document.write('<br>');
+        //    document.write('*****************');
+        //    document.write('<br>');
+        //    document.write('Problem 2 - Functions: Sum and Multiply');
+        //    document.write('<br>');
 
-        //declare function findSum
-            function findSum(numOne, numTwo)
-            {
-                var sum = numOne + numTwo;
-                document.write('.. and the sum is..');
-                document.write(sum);
-                document.write('<br>');
-            }
+        //    function sum(numArray) {
+        //        var sumTot = 0;
+        //        for (var counter = 0; counter < numArray.length; counter++) {
+        //            sumTot = sumTot + numArray[counter];
+        //        }
 
-        // call function
-            var numberOne = 20;
-            var numberTwo = 5;
-            findSum(numberOne, numberTwo);
+        //        document.write('The numbers to be added are...');
+        //        document.write('<br>');
+        //        document.write(numArray);
+        //        document.write('<br>');
+        //        document.write(sumTot);
+        //        document.write('<br>');
+        //    }
 
-        // declare function to sum arbitray numbers
-            function sumArb(numArb)
-            {
-                var sumTot = 0;
-                for (var counter = 0; counter < numArb.length; counter++) {
-                    sumTot = sumTot + numArb[counter];
-                }
+        //    function mult(numArray) {
+        //        var multTot = 1;
+        //        for (var counter = 0; counter < numArray.length; counter++) {
+        //            multTot = multTot * numArray[counter];
+        //        }
+
+        //        document.write('The numbers to be multiplied are...');
+        //        document.write('<br>');
+        //        document.write(numArray);
+        //        document.write('<br>');
+        //        document.write(multTot);
+        //        document.write('<br>');
+        //    }
+        //    var numArray = [2, 4, 6, 8];
+        //    sum(numArray);
+        //    mult(numArray);
+
+        //    // Problem 3
+        //    document.write('<br>');
+        //    document.write('*****************');
+        //    document.write('<br>');
+        //    document.write('Problem 3 - Function: Factorial of a Number');
+        //    document.write('<br>');
+
+        //    function fact(numFact) {
+        //        var prodTot = numFact;
+
+        //        for (i = numFact-1; i > 1; i--) {
+        //            prodTot = prodTot * i;
+
+        //        }
+
+        //        document.write('The factorial number is...');
+        //        document.write('<br>');
+        //        document.write(numFact);
+        //        document.write('<br>');
+        //        document.write(prodTot);
+        //        document.write('<br>');
+        //    }
+
+        //    fact(5);
+
+        //    // Problem 4
+        //    document.write('<br>');
+        //    document.write('*****************');
+        //    document.write('<br>');
+        //    document.write('Problem 4 - Function: Determine a Palindrome');
+        //    document.write('<br>');
+
+        //    function palTest(text) {
+        //        var arrText = text.split("");
+        //        arrText.reverse();
+        //        var test = arrText.join("");
+
+        //        if (text.toLowerCase() == test.toLowerCase()) {
+        //            document.write(text);
+        //            document.write(' is a Palindrome');
+        //            document.write('<br>');
+        //        }
+        //        else {
+        //            document.write(text);
+        //            document.write(' is NOT a Palindrome');
+        //            document.write('<br>');
+        //        }
+        //    }
+
+        //    var text = 'Radar';
+        //    palTest(text);
+
+        //    // Problem 5
+        //    document.write('<br>');
+        //    document.write('*****************');
+        //    document.write('<br>');
+        //    document.write('Problem 5 - Function: FizzBuzz');
+        //    document.write('<br>');
+
+        //    function fizzBuzz() {
+        //        var i = 1;
+        //        var x = 0;
+        //        var y = 0;
+
+        //        var text = (1).toString();
+        //        while (i <= 100) {
+
+        //            x = i;
+        //            x %= 3;
+        //            y = i;
+        //            y %= 5;
+
+        //            text = i.toString();
+        //            if (y == 0) { text = 'Buzz'; }
+        //            if (x == 0) { text = 'Fizz'; }
+        //            if (x == 0 && y == 0) { text = 'FizzBuzz'; } 
+
+        //            document.write(text);
+        //            document.write('<br>');
+        //            i++;
+        //        }
+        //    }
+        //        fizzBuzz();
+
+        //        // Problem 6
+        //        document.write('<br>');
+        //        document.write('*****************');
+        //        document.write('<br>');
+        //        document.write('Problem 6 - Function: Perfect Numbers');
+        //        document.write('<br>');
+
+        //        function prfNum(n) {
+        //            var temp = 0, perfectNumArr = [],
+        //                i = 1, j = 1, len;
+        //            for (; j <= n; j++) {
+        //                len = j / 2;
+        //                for (; i <= len; i++) {
+        //                    if (n % i === 0) {
+        //                        temp += i;
+        //                    }
+        //                }
+        //                i = 1;
+        //                if (temp === j) {
+        //                    perfectArr.push(j);
+        //                }
+        //            }
+        //            return perfectNumArr;
+        //        }
+        ///*
+        //        // function to determine perfect number
+        //        function prfNum(chkNum) {
+        //            var sumTot = 0;
+        //            var i = 1;
+        //            var x = 0;
+
+        //            document.write('Start prfNum');
+        //            document.write('<br>');
+        //            document.write('chkNum= ' + chkNum);
+        //            document.write('<br>');
+
+        //            for (; i < chkNum; i++){
+
+        //                if(chkNum%i === 0){
+        //                    sumTot = sumTot + i;
+        //                }
+
+        //            }
+
+        //            return sumTot;
+        //        }   */
+
+        //        function dspNum(chkNum) {
+        //            document.write(chkNum);
+        //            document.write('<br>');
+        //        }
+
+        //        //chkNum = 1;
+        //        //divSum = 0;
+
+        //        //while(divSum <= 1000000){
+        //            var divSum = prfNum(1000);
+
+        //         //   document.write("divSum= " + divSum);
+        //         //   document.write('<br>');
+
+        //         //   if (divSum === chkNum) {
+        //                dspNum(divSum);
+        //         //   }
+
+        //        //    chkNum++;
+
+        //        //}
+
+       
+
+        ////declare function findSum
+        //    function findSum(numOne, numTwo)
+        //    {
+        //        var sum = numOne + numTwo;
+        //        document.write('.. and the sum is..');
+        //        document.write(sum);
+        //        document.write('<br>');
+        //    }
+
+        //// call function
+        //    var numberOne = 20;
+        //    var numberTwo = 5;
+        //    findSum(numberOne, numberTwo);
+
+        //// declare function to sum arbitray numbers
+        //    function sumArb(numArb)
+        //    {
+        //        var sumTot = 0;
+        //        for (var counter = 0; counter < numArb.length; counter++) {
+        //            sumTot = sumTot + numArb[counter];
+        //        }
                    
-                document.write('The numbers to be added are...');
-                document.write('<br>');
-                    document.write(numArb);
-                document.write('<br>');
-                document.write(sumTot);
-            }
+        //        document.write('The numbers to be added are...');
+        //        document.write('<br>');
+        //            document.write(numArb);
+        //        document.write('<br>');
+        //        document.write(sumTot);
+        //    }
                
-            var numArb = [2, 4, 6, 8, 10];
-            sumArb(numArb);
+        //    var numArb = [2, 4, 6, 8, 10];
+        //    sumArb(numArb);
+
+        //happy(1);
+
 
         </script>
+
+    <script src="scripts/utilities.js"></script>
 </body>
 </html>

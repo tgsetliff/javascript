@@ -57,6 +57,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="scripts\jquery-2.1.3.intellisense.js" />
+    <Content Include="Javascript Exercise working.html" />
+    <Content Include="Javascript Exercise.html" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-2.1.3.js" />
+    <Content Include="scripts\jquery-2.1.3.min.js" />
+    <Content Include="scripts\jquery-2.1.3.min.map" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,13 +84,68 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Syntax\shCore.css" />
+    <Content Include="css\Syntax\shCoreDefault.css" />
+    <Content Include="css\Syntax\shCoreDjango.css" />
+    <Content Include="css\Syntax\shCoreEclipse.css" />
+    <Content Include="css\Syntax\shCoreEmacs.css" />
+    <Content Include="css\Syntax\shCoreFadeToGrey.css" />
+    <Content Include="css\Syntax\shCoreMDUltra.css" />
+    <Content Include="css\Syntax\shCoreMidnight.css" />
+    <Content Include="css\Syntax\shCoreRDark.css" />
+    <Content Include="css\Syntax\shThemeDefault.css" />
+    <Content Include="css\Syntax\shThemeDjango.css" />
+    <Content Include="css\Syntax\shThemeEclipse.css" />
+    <Content Include="css\Syntax\shThemeEmacs.css" />
+    <Content Include="css\Syntax\shThemeFadeToGrey.css" />
+    <Content Include="css\Syntax\shThemeMDUltra.css" />
+    <Content Include="css\Syntax\shThemeMidnight.css" />
+    <Content Include="css\Syntax\shThemeRDark.css" />
     <Content Include="Index.html" />
-    <Content Include="Javascript Exercise.html" />
+    <Content Include="scripts\npm.js" />
+    <Content Include="scripts\problem1.js" />
+    <Content Include="scripts\Problem2.js" />
+    <Content Include="scripts\Problem3.js" />
+    <Content Include="scripts\Problem4.js" />
+    <Content Include="scripts\Problem5.js" />
+    <Content Include="scripts\Problem6.js" />
+    <Content Include="scripts\Problem7.js" />
+    <Content Include="scripts\Problem8.js" />
+    <Content Include="scripts\Syntax\shAutoloader.js" />
+    <Content Include="scripts\Syntax\shBrushAppleScript.js" />
+    <Content Include="scripts\Syntax\shBrushAS3.js" />
+    <Content Include="scripts\Syntax\shBrushBash.js" />
+    <Content Include="scripts\Syntax\shBrushColdFusion.js" />
+    <Content Include="scripts\Syntax\shBrushCpp.js" />
+    <Content Include="scripts\Syntax\shBrushCSharp.js" />
+    <Content Include="scripts\Syntax\shBrushCss.js" />
+    <Content Include="scripts\Syntax\shBrushDelphi.js" />
+    <Content Include="scripts\Syntax\shBrushDiff.js" />
+    <Content Include="scripts\Syntax\shBrushErlang.js" />
+    <Content Include="scripts\Syntax\shBrushGroovy.js" />
+    <Content Include="scripts\Syntax\shBrushJava.js" />
+    <Content Include="scripts\Syntax\shBrushJavaFX.js" />
+    <Content Include="scripts\Syntax\shBrushJScript.js" />
+    <Content Include="scripts\Syntax\shBrushPerl.js" />
+    <Content Include="scripts\Syntax\shBrushPhp.js" />
+    <Content Include="scripts\Syntax\shBrushPlain.js" />
+    <Content Include="scripts\Syntax\shBrushPowerShell.js" />
+    <Content Include="scripts\Syntax\shBrushPython.js" />
+    <Content Include="scripts\Syntax\shBrushRuby.js" />
+    <Content Include="scripts\Syntax\shBrushSass.js" />
+    <Content Include="scripts\Syntax\shBrushScala.js" />
+    <Content Include="scripts\Syntax\shBrushSql.js" />
+    <Content Include="scripts\Syntax\shBrushVb.js" />
+    <Content Include="scripts\Syntax\shBrushXml.js" />
+    <Content Include="scripts\Syntax\shCore.js" />
+    <Content Include="scripts\Syntax\shLegacy.js" />
+    <Content Include="scripts\utilities.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
